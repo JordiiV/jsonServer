@@ -1,0 +1,72 @@
+export const OrientationMockup = {
+    id: 325907,
+    title: "CAMAREROS, EN GENERAL",
+    economicActivity: "SERVICIOS DE COMIDAS Y BEBIDAS",
+    location: {
+        city: "VILANOVA DEL CAMÍ",
+        zipcode: {
+            value: "08788",
+            coordinates: [41.401279, 2.199169]
+        }
+    },
+    companyName: "MARTINEZ MARIN MARIA JOSEFA",
+    general: {
+        position: "OFICIALES DE PRIMERA",
+        contractType: "LABORAL TEMPORAL",
+        durationDays: 90,
+        temporaryEmploymentAgency: false,
+        salary: {
+            from: 752,
+            to: 753
+        },
+        incorporationDate: "01-11-2017",
+        jobSchedule: {
+            workingDay: "COMPLETA",
+            hours: 8,
+            turn: "9-14h i 15-18h de dl a dj. DV de 8.30h a 14h",
+            nocturnity: 2,
+            holidays: 20
+        }
+    },
+    minRequirements: {
+        experience: 36,
+        trainning: {
+            formalStudies: "Un estudio formal cualquiera",
+            trainningLevel: "nivel ninja"
+        },
+        skills: {
+            languages: [
+                {
+                    name: "inglés",
+                    level: {
+                        written: "3",
+                        spoken: "3" ,
+                        reading: "3"
+                    }
+                }
+            ],
+            computerSkills: [
+                "Programming",
+                "Hacking"
+            ]
+        },
+        other: {
+            drivingLicense: [
+                "B2 licencia para conducir",
+                "GTA"
+            ],
+            vehicles: [
+                "Furgoneta"
+            ],
+            preferredAge: {
+                "min": 20,
+                "max": 65
+            },
+            certificates: [
+                "Manipulador de alimentos"
+            ]
+        }
+    },
+    vacancies: 2,
+    source: "Servei d'Ocupació de Catalunya, SOC"
+}
