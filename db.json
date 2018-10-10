@@ -1,4 +1,4 @@
-export const OrientationMockup = {
+{
     id: 325907,
     title: "CAMAREROS, EN GENERAL",
     economicActivity: "SERVICIOS DE COMIDAS Y BEBIDAS",
